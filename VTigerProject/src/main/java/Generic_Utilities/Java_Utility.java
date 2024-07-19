@@ -17,6 +17,7 @@ public class Java_Utility {
 	int ranNum = ran.nextInt(1000);
 	return ranNum;
 	//1st pull
+	//2nd push
 	}
 	
 	/**
