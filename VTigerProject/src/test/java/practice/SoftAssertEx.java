@@ -42,8 +42,12 @@ public class SoftAssertEx extends BaseClass {
 			//soft.assertTrue(actData.contains(campName),campName+"Campaign name not created");
 			soft.assertTrue(actData.contains(campName));
 			soft.assertAll(); //this line is must for all softassert . shd be given at the end
-
-		}
+			
 		
+		}
+		public void test()
+		{
+			System.out.println("test1 updated");
+		}
 	}
 	
